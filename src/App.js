@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Lista de Tarefas</h1>
+        <h1>Lista de Tarefas 🗿🍷</h1>
         <TaskFilters />
         <TaskList />
       </header>

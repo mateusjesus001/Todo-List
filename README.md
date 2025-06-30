@@ -1,46 +1,51 @@
-# Getting Started with Create React App and Redux
+# Como executar este projeto (Todo List)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+Este projeto foi criado com [Create React App](https://github.com/facebook/create-react-app), utilizando [Redux](https://redux.js.org/) e [Redux Toolkit](https://redux-toolkit.js.org/).
 
-## Available Scripts
+## Pré-requisitos
 
-In the project directory, you can run:
+- [Node.js](https://nodejs.org/) instalado (recomendado versão 14 ou superior)
+- [npm](https://www.npmjs.com/) instalado (geralmente já vem com o Node.js)
 
-### `npm start`
+## Instalação
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+No diretório do projeto, execute o comando abaixo para instalar as dependências:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+npm install
+```
 
-### `npm test`
+## Como rodar o projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Para iniciar o aplicativo em modo de desenvolvimento, execute:
 
-### `npm run build`
+```bash
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Depois, acesse [http://localhost:3000](http://localhost:3000) no seu navegador para visualizar o app.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+O aplicativo será recarregado automaticamente a cada alteração no código.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Rodar os testes
 
-### `npm run eject`
+Para executar os testes automatizados:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm test
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Gerar build de produção
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Para criar uma versão otimizada para produção:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm run build
+```
 
-## Learn More
+Os arquivos finais estarão na pasta `build`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Mais informações
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [Documentação do Create React App (em inglês)](https://facebook.github.io/create-react-app/docs/getting-started)
+- [Documentação do React (em inglês)](https://reactjs.org/)
